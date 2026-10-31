@@ -13,6 +13,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | #7 Hybrid search lost the easy answer | [`007-hybrid-search`](007-hybrid-search) | BM25, dense retrieval, RRF, and the zero-score rank bug |
 | #8 My vector index made search slower | [`008-vector-index`](008-vector-index) | Exact, HNSW and IVF recall curves, the size crossover, and post-filter loss |
 | #9 Rewriting my queries made search worse | [`009-query-rewriting`](009-query-rewriting) | Query rewriting, HyDE and reranking on two public datasets, with bootstrap intervals |
+| #10 Five searches found less than one | [`010-multi-query`](010-multi-query) | RAG-Fusion, step-back and two-round retrieval on three public datasets, with merge checks |
 
 Each folder contains its recorded output in `RESULTS.md`. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 
