@@ -11,6 +11,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | #5 The model never saw your answer | [`005-rag-system`](005-rag-system) | A tiny BM25 RAG pipeline and chunk-boundary failures |
 | #6 Overlap made my RAG worse | [`006-rag-upgrades`](006-rag-upgrades) | A measured upgrade ladder across chunking and retrieval choices |
 | #7 Hybrid search lost the easy answer | [`007-hybrid-search`](007-hybrid-search) | BM25, dense retrieval, RRF, and the zero-score rank bug |
+| #8 My vector index made search slower | [`008-vector-index`](008-vector-index) | Exact, HNSW and IVF recall curves, the size crossover, and post-filter loss |
 
 Each folder contains its recorded output in `RESULTS.md`. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 

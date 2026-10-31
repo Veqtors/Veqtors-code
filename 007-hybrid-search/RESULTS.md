@@ -40,3 +40,5 @@ BM25 alone was right in every run.
 ```
 
 BM25 ties at zero, so which leftover takes second place depends on document order.
+
+In the original sentence order, LangChain's hybrid ranks E4120 first.
