@@ -4,6 +4,7 @@ Uses GloVe-100 from ANN-Benchmarks (about 463 MB, real word vectors) and FAISS,
 with no API key. Timings are single-threaded and belong to the machine they ran on.
 Setup: pip install -r requirements.txt   Run: python index_curve.py
 """
+import hashlib
 import pathlib
 import shutil
 import time
@@ -13,8 +14,9 @@ import faiss
 import h5py
 import numpy as np
 
-URL = "http://ann-benchmarks.com/glove-100-angular.hdf5"
+URL = "https://ann-benchmarks.com/glove-100-angular.hdf5"
 PATH = pathlib.Path("glove-100-angular.hdf5")
+SHA256 = "544af1d5e84e112cd4749571dcfd8ca109818a572f850af75a3a09e093a953c4"
 SIZES = [3_000, 10_000, 30_000, 100_000, 300_000, 1_000_000]
 EFS = [16, 50, 100, 200, 400]
 NPROBES = [1, 5, 10, 20, 50, 100]
@@ -23,8 +25,13 @@ K, QUERIES, BUILD_THREADS = 10, 1000, 8
 if not PATH.exists():
     print("Downloading GloVe-100...", flush=True)
     request = urllib.request.Request(URL, headers={"User-Agent": "curl/8"})  # the host rejects Python's default
-    with urllib.request.urlopen(request) as response, open(PATH, "wb") as out:
+    partial = PATH.with_suffix(".part")
+    with urllib.request.urlopen(request) as response, open(partial, "wb") as out:
         shutil.copyfileobj(response, out)
+    partial.replace(PATH)
+with open(PATH, "rb") as f:
+    if hashlib.file_digest(f, "sha256").hexdigest() != SHA256:
+        raise SystemExit(f"{PATH} failed its checksum. Delete it and run again.")
 with h5py.File(PATH) as f:
     train = np.array(f["train"], dtype="float32")
     queries = np.array(f["test"], dtype="float32")[:QUERIES]
