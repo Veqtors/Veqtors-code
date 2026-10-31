@@ -22,4 +22,8 @@ print("fused top 5:", [f"{ids[d]} {scores[d]:.5f}" for d in order[:5]])
 for title in sorted(relevant[QUESTION]):
     doc = ids.index(title)
     print(f"{title}: plain rank {list(map(int, lists[0])).index(doc) + 1}, fused rank {order.index(doc) + 1}, score {scores[doc]:.5f}")
+print("ranks per list (query, then variants; - means not in that list):")
+for doc in order[:5] + [ids.index(title) for title in sorted(relevant[QUESTION])]:
+    ranks = [list(map(int, ranked)).index(doc) + 1 if doc in set(map(int, ranked)) else "-" for ranked in lists]
+    print(f"{ids[doc]}: {ranks}")
 print("step-back, Derrickson question:", extra["step_back"][0])
