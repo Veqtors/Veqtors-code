@@ -1,14 +1,17 @@
 # Veqtors code
 
-Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: production-grade AI systems, explained in diagrams. There's one folder per issue. Every number quoted in an issue can be reproduced from here.
+Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: production-grade AI systems, explained in diagrams. There's one folder per issue, with the experiments and calculations behind each article.
 
 | Issue | Folder | What's inside |
 |---|---|---|
 | #1 Inside the Transformer | [`001-transformer`](001-transformer) | NumPy causal attention, a parameter and KV-cache calculator, English vs Urdu token counts |
+| #2 A single space cut my token count | [`002-tokens`](002-tokens) | Tokenizer probes, a BPE toy, and a prompt-cost calculator |
+| #3 The same model, trained three times | [`003-post-training`](003-post-training) | Base vs instruct checkpoints, chat-template tokens, and DPO loss |
+| #4 128x less memory, with a catch | [`004-attention`](004-attention) | MHA/GQA/MQA memory calculations and sliding-window masks |
+| #5 The model never saw your answer | [`005-rag-system`](005-rag-system) | A tiny BM25 RAG pipeline and chunk-boundary failures |
+| #6 Overlap made my RAG worse | [`006-rag-upgrades`](006-rag-upgrades) | A measured upgrade ladder across chunking and retrieval choices |
+| #7 Hybrid search lost the easy answer | [`007-hybrid-search`](007-hybrid-search) | BM25, dense retrieval, RRF, and the zero-score rank bug |
 
-```bash
-pip install numpy tiktoken
-python 001-transformer/model_card.py
-```
+Each folder contains its recorded output in `RESULTS.md`. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 
 MIT licensed.
