@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 *.hdf5
 data/
+011-long-context/answers.json
+011-long-context/groq_answers.json
