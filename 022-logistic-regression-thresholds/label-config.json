@@ -1,0 +1,14 @@
+{
+  "comparison": ">",
+  "cutoff": 211.0,
+  "frozen_before_fit": true,
+  "mapping": {
+    "0": "cnt <= c",
+    "1": "cnt > c"
+  },
+  "method": "higher",
+  "q": 0.75,
+  "source_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+  "train_ordered_ids_sha256": "3d4ee7e6bd7caf76c004213eefcf2d3ed7c3bb9dca03a800ae723f949b5e695e",
+  "training_counts_sha256": "8aa80decd6ba158fc7585d865d9f7b7cd5e5ccc37b25cfdaba20548641f7d28a"
+}

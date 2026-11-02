@@ -1,0 +1,26 @@
+{
+  "ln3": 1.0986122886681098,
+  "loss_y1_p02": 1.6094379124341003,
+  "loss_y1_p08": 0.2231435513142097,
+  "one_input_z": 0.0,
+  "policy_fixtures": [
+    {
+      "decision_030": 1,
+      "decision_050": 0,
+      "p": 0.4
+    },
+    {
+      "decision_030": 1,
+      "decision_050": 1,
+      "p": 0.5
+    },
+    {
+      "decision_030": 1,
+      "decision_050": 0,
+      "p": 0.3
+    }
+  ],
+  "scope": "Synthetic arithmetic, not measured model results",
+  "sigmoid_ln3": 0.75,
+  "sigmoid_zero": 0.5
+}

@@ -1,0 +1,5 @@
+# Preserve exact generated receipt bytes used by the recorded SHA-256 values.
+partitions.json -text
+report.json -text
+synthetic.json -text
+trace.json -text

@@ -1,0 +1,103 @@
+{
+  "config": {
+    "dummy": {
+      "strategy": "prior"
+    },
+    "encoding": {
+      "drop": "first",
+      "handle_unknown": "ignore",
+      "sparse_output": false
+    },
+    "label_recipe": {
+      "comparison": ">",
+      "fit_partition": "train",
+      "method": "higher",
+      "q": 0.75
+    },
+    "logistic": {
+      "C": 1.0,
+      "class_weight": null,
+      "fit_intercept": true,
+      "max_iter": 1000,
+      "n_jobs": 1,
+      "penalty": "l2",
+      "solver": "lbfgs",
+      "tol": 1e-06,
+      "warm_start": false
+    },
+    "multi_class": "unspecified pinned default binary path",
+    "native_solver": {
+      "ftol": 1.4210854715202004e-14,
+      "gtol": 1e-06,
+      "maxiter": 1000
+    },
+    "native_threads": 1,
+    "policies": [
+      0.5,
+      0.3
+    ],
+    "sample_weight": null
+  },
+  "protocol": {
+    "agreement_tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "convergence": "Any ConvergenceWarning blocks completion; never adapt C, iterations or labels",
+    "declared_before_any_fit": true,
+    "encoding": {
+      "categories": "auto, learned on training only",
+      "drop": "first",
+      "handle_unknown": "ignore",
+      "sparse_output": false
+    },
+    "feature_policy": "Only target calendar fields; no weather, season, holiday, workingday, raw IDs/date/year, targets/components, lags or interactions",
+    "features": [
+      "hr",
+      "mnth",
+      "weekday_mon0"
+    ],
+    "final_test": "IDs/times metadata only; no labels, balance, fitting, predictions or scoring until later approved gate",
+    "fit_cadence": "Once at first development issuance; frozen through validation",
+    "issue_lead_hours": 1,
+    "label": {
+      "comparison": ">",
+      "freeze_cutoff_before_fit": true,
+      "mapping": {
+        "0": "cnt <= c",
+        "1": "cnt > c"
+      },
+      "method": "higher",
+      "q": 0.75,
+      "training_only": true
+    },
+    "metric_clipping": "sklearn 1.7.2 clips each probability to [float64 eps,1-eps], no post-clipping renormalization; preserve raw scores",
+    "models": [
+      "DummyClassifier prior",
+      "LogisticRegression L2 lbfgs"
+    ],
+    "objective": "mean binary cross entropy + sum(w**2)/(2*C*n_train); intercept unpenalized; no sample/class weights",
+    "policies": {
+      "comparison": ">=",
+      "selection": "Two fixed demonstrations, no winner or cost tuning",
+      "thresholds": [
+        0.5,
+        0.3
+      ]
+    },
+    "primary_metric": "Mean binary log_loss, natural log, labels=[0,1], float64 probabilities; no penalty in evaluation",
+    "prior_access": "Inherited whole-source mechanical schema/domain/component checks read all count fields; final targets are not literally unseen",
+    "readiness_equality_allowed": true,
+    "readiness_qualification": "Hypothetical immediate aggregate availability; train target t allowed only if t+1h <= first validation issuance. Not an operational source guarantee.",
+    "reporting_delay_hours": 0,
+    "representation_caveat": "Reference coding breaks category symmetry for penalized models; unknown category uses zero reference block",
+    "reserved_start": "2012-07-01T00:00:00",
+    "selection_basis": "Inherited #21 windows and ordered-ID hashes; no score-driven selection",
+    "target_interval_hours": 1,
+    "time_semantics": "Naive source-calendar interval-start labels by convention, not verified UTC/timezone/DST or elapsed-hour semantics",
+    "train_start": "2011-01-01T00:00:00",
+    "validation_start": "2012-01-01T00:00:00",
+    "version": 2,
+    "windows": "Half-open target-label windows; training is 2011 calendar year before readiness exclusion"
+  }
+}

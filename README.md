@@ -18,6 +18,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | #19 Repeatable checked records | [`019-repeatable-data-pipeline`](019-repeatable-data-pipeline) | Hash-verified UCI data, strict parsing, exact reruns and injected contract faults |
 | #20 Prediction boundary and full-entry sentinel | [`020-leakage-safe-validation`](020-leakage-safe-validation) | Frozen chronological partitions, label readiness and preprocessing leakage controls |
 | #21 Fixed constant and linear baselines | [`021-linear-regression-baseline`](021-linear-regression-baseline) | Paired mean/median/OLS baselines, development metrics, coefficient trace and residual diagnostics |
+| #22 Logistic regression and thresholds | [`022-logistic-regression-thresholds`](022-logistic-regression-thresholds) | Standalone prior/logistic baselines, frozen training-only labels, paired log loss, fixed decision policies and reproducibility receipts |
 
 Completed experiments contain their recorded output in `RESULTS.md`. Issue 011 is still in progress; see its README for setup and limits. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 

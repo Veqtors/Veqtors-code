@@ -1,0 +1,13 @@
+{
+  "origin": "#21 original code/partitions.json (identity projection only; regression contract intentionally excluded)",
+  "dataset_helper_sha256": "beca12d7b9df34179a269fdc3fefa4d9fb9f5d40efd7bb9c9d7d0555abe758a7",
+  "first_validation_issuance": "2011-12-31 23:00:00",
+  "excluded_ids": ["e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8645"],
+  "partitions": {
+    "readiness_excluded": {"count": 1, "first": "2011-12-31 23:00:00", "last": "2011-12-31 23:00:00", "ordered_ids_sha256": "01bebfc6b17a14a55a7b2759c31e125fde800e5d70f9c4142f221dd6b1bfb580"},
+    "reserved": {"count": 4376, "first": "2012-07-01 00:00:00", "last": "2012-12-31 23:00:00", "ordered_ids_sha256": "a7717b2b28a7398ad331b7cb3bc1fc7b0931e88cc2e446806fc405e45a03342e"},
+    "train": {"count": 8644, "first": "2011-01-01 00:00:00", "last": "2011-12-31 22:00:00", "ordered_ids_sha256": "3d4ee7e6bd7caf76c004213eefcf2d3ed7c3bb9dca03a800ae723f949b5e695e"},
+    "validation": {"count": 4358, "first": "2012-01-01 00:00:00", "last": "2012-06-30 23:00:00", "ordered_ids_sha256": "01acde00b1aed53f4f42e2ba3727ad6f9a021ed69a4db61f18ac2cb9730dad74"}
+  },
+  "encoded_names": ["hr_1", "hr_2", "hr_3", "hr_4", "hr_5", "hr_6", "hr_7", "hr_8", "hr_9", "hr_10", "hr_11", "hr_12", "hr_13", "hr_14", "hr_15", "hr_16", "hr_17", "hr_18", "hr_19", "hr_20", "hr_21", "hr_22", "hr_23", "mnth_2", "mnth_3", "mnth_4", "mnth_5", "mnth_6", "mnth_7", "mnth_8", "mnth_9", "mnth_10", "mnth_11", "mnth_12", "weekday_mon0_1", "weekday_mon0_2", "weekday_mon0_3", "weekday_mon0_4", "weekday_mon0_5", "weekday_mon0_6"]
+}
