@@ -1,0 +1,124 @@
+{
+  "accepted": 17379,
+  "code_sha256": "4579e25f42ad7c9acbf99c4e39d6641adb97e0c2946958ba1319ebdf1ed52b4e",
+  "component_identity_all_rows": true,
+  "duplicate_date_hours": 0,
+  "duplicate_ids": 0,
+  "elapsed_seconds": 0.8545515999994677,
+  "end": "2012-12-31 23:00:00",
+  "exact_rerun": true,
+  "faults": {
+    "bad_numeric": {
+      "batch_accepted": 0,
+      "error": {
+        "field": "hr",
+        "row": 2,
+        "rule": "nonnegative integer syntax",
+        "token": "not-an-hour"
+      },
+      "fixture_sha256": "f037378247b7e6d926c775748990e5903987f3feb20742fb4d9b8f5736484a56",
+      "injected": true,
+      "source_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+      "success_output_written": false
+    },
+    "duplicate_id": {
+      "batch_accepted": 0,
+      "error": {
+        "field": "instant",
+        "row": null,
+        "rule": "duplicate stable ID",
+        "token": null
+      },
+      "fixture_sha256": "3644e206f8ca23e1bdefdf331ab118e168633c2e2cd0c56cabd5a1b364812aa0",
+      "injected": true,
+      "source_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+      "success_output_written": false
+    },
+    "missing_column": {
+      "batch_accepted": 0,
+      "error": {
+        "field": null,
+        "row": null,
+        "rule": "exact required header",
+        "token": [
+          "instant",
+          "dteday",
+          "season",
+          "yr",
+          "mnth",
+          "hr",
+          "holiday",
+          "weekday",
+          "workingday",
+          "weathersit",
+          "temp",
+          "atemp",
+          "hum",
+          "windspeed",
+          "casual",
+          "registered"
+        ]
+      },
+      "fixture_sha256": "249079f5c57fbdb8cb300385cf134d50df4f8e006647adcc96de02374d0b130c",
+      "injected": true,
+      "source_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+      "success_output_written": false
+    }
+  },
+  "gap_examples": [
+    "2011-01-02 05:00:00",
+    "2011-01-03 02:00:00",
+    "2011-01-03 03:00:00",
+    "2011-01-04 03:00:00",
+    "2011-01-05 03:00:00",
+    "2011-01-06 03:00:00",
+    "2011-01-07 03:00:00",
+    "2011-01-11 03:00:00"
+  ],
+  "logical_sha256": "4305923354cf9d3398076c9fc5d29553bf00e95adb0213fcb0c978d1bc82998a",
+  "lossless_parquet_readback": true,
+  "missing_calendar_hours": 165,
+  "null_fields": 0,
+  "parquet_bytes_equal": true,
+  "parquet_sha256": "14366cab6ee1db8fad5a3c8db30746874bd602b3f15d2885dc245127958a6534",
+  "rejected": 0,
+  "rows": 17379,
+  "schema_sha256": "fb2ecd05186ff7fdaf476748a3369dfd15c046fd1291f8a4ec9865c455e899c5",
+  "scope": "Whole-source mechanical audit reads all cnt/casual/registered, including eventual reserved targets. No distribution filtering, imputation, scores, or gap filling.",
+  "source_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+  "source_weekday_to_mon0": {
+    "0": [
+      6
+    ],
+    "1": [
+      0
+    ],
+    "2": [
+      1
+    ],
+    "3": [
+      2
+    ],
+    "4": [
+      3
+    ],
+    "5": [
+      4
+    ],
+    "6": [
+      5
+    ]
+  },
+  "start": "2011-01-01 00:00:00",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0",
+    "pytest": "8.4.2",
+    "python": "3.13.12",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.18.1"
+  },
+  "workingday_rule_matches": true,
+  "zip_sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401"
+}

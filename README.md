@@ -15,6 +15,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | #9 Rewriting my queries made search worse | [`009-query-rewriting`](009-query-rewriting) | Query rewriting, HyDE and reranking on two public datasets, with bootstrap intervals |
 | #10 Five searches found less than one | [`010-multi-query`](010-multi-query) | RAG-Fusion, step-back and two-round retrieval on three public datasets, with merge checks |
 | #11 Long context or RAG? (in progress) | [`011-long-context`](011-long-context) | Experimental full-context versus top-5 retrieval, placement and prefix-cache scripts; results pending |
+| #19 Repeatable checked records | [`019-repeatable-data-pipeline`](019-repeatable-data-pipeline) | Hash-verified UCI data, strict parsing, exact reruns and injected contract faults |
 
 Completed experiments contain their recorded output in `RESULTS.md`. Issue 011 is still in progress; see its README for setup and limits. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 
