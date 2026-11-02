@@ -1,0 +1,540 @@
+{
+  "first48": [
+    {
+      "observed": 48,
+      "prediction": -49.665532643377,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8646",
+      "residual": 97.66553264337699,
+      "target_time": "2012-01-01 00:00:00"
+    },
+    {
+      "observed": 93,
+      "prediction": -66.06071321399767,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8647",
+      "residual": 159.06071321399767,
+      "target_time": "2012-01-01 01:00:00"
+    },
+    {
+      "observed": 75,
+      "prediction": -75.13031483465903,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8648",
+      "residual": 150.13031483465903,
+      "target_time": "2012-01-01 02:00:00"
+    },
+    {
+      "observed": 52,
+      "prediction": -86.31751607784088,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8649",
+      "residual": 138.31751607784088,
+      "target_time": "2012-01-01 03:00:00"
+    },
+    {
+      "observed": 8,
+      "prediction": -92.29076869157322,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8650",
+      "residual": 100.29076869157322,
+      "target_time": "2012-01-01 04:00:00"
+    },
+    {
+      "observed": 5,
+      "prediction": -79.82184201192278,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8651",
+      "residual": 84.82184201192278,
+      "target_time": "2012-01-01 05:00:00"
+    },
+    {
+      "observed": 2,
+      "prediction": -35.15256403778115,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8652",
+      "residual": 37.15256403778115,
+      "target_time": "2012-01-01 06:00:00"
+    },
+    {
+      "observed": 7,
+      "prediction": 64.19362482727057,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8653",
+      "residual": -57.19362482727057,
+      "target_time": "2012-01-01 07:00:00"
+    },
+    {
+      "observed": 14,
+      "prediction": 170.35615926253038,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8654",
+      "residual": -156.35615926253038,
+      "target_time": "2012-01-01 08:00:00"
+    },
+    {
+      "observed": 40,
+      "prediction": 71.23494714131866,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8655",
+      "residual": -31.234947141318656,
+      "target_time": "2012-01-01 09:00:00"
+    },
+    {
+      "observed": 70,
+      "prediction": 38.245966425064054,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8656",
+      "residual": 31.754033574935946,
+      "target_time": "2012-01-01 10:00:00"
+    },
+    {
+      "observed": 138,
+      "prediction": 63.279024276301485,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8657",
+      "residual": 74.72097572369852,
+      "target_time": "2012-01-01 11:00:00"
+    },
+    {
+      "observed": 201,
+      "prediction": 97.71551987004938,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8658",
+      "residual": 103.28448012995062,
+      "target_time": "2012-01-01 12:00:00"
+    },
+    {
+      "observed": 223,
+      "prediction": 98.10288250741092,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8659",
+      "residual": 124.89711749258908,
+      "target_time": "2012-01-01 13:00:00"
+    },
+    {
+      "observed": 267,
+      "prediction": 90.25398140851016,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8660",
+      "residual": 176.74601859148984,
+      "target_time": "2012-01-01 14:00:00"
+    },
+    {
+      "observed": 265,
+      "prediction": 96.045190199719,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8661",
+      "residual": 168.954809800281,
+      "target_time": "2012-01-01 15:00:00"
+    },
+    {
+      "observed": 215,
+      "prediction": 142.4502113624315,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8662",
+      "residual": 72.5497886375685,
+      "target_time": "2012-01-01 16:00:00"
+    },
+    {
+      "observed": 111,
+      "prediction": 257.5461017733922,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8663",
+      "residual": -146.5461017733922,
+      "target_time": "2012-01-01 17:00:00"
+    },
+    {
+      "observed": 106,
+      "prediction": 229.99625018888435,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8664",
+      "residual": -123.99625018888435,
+      "target_time": "2012-01-01 18:00:00"
+    },
+    {
+      "observed": 105,
+      "prediction": 144.09266892166653,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8665",
+      "residual": -39.09266892166653,
+      "target_time": "2012-01-01 19:00:00"
+    },
+    {
+      "observed": 83,
+      "prediction": 80.77586451395484,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8666",
+      "residual": 2.2241354860451565,
+      "target_time": "2012-01-01 20:00:00"
+    },
+    {
+      "observed": 71,
+      "prediction": 42.36539619439358,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8667",
+      "residual": 28.634603805606417,
+      "target_time": "2012-01-01 21:00:00"
+    },
+    {
+      "observed": 66,
+      "prediction": 11.516911345909236,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8668",
+      "residual": 54.483088654090764,
+      "target_time": "2012-01-01 22:00:00"
+    },
+    {
+      "observed": 29,
+      "prediction": -23.044002832636984,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8669",
+      "residual": 52.044002832636984,
+      "target_time": "2012-01-01 23:00:00"
+    },
+    {
+      "observed": 39,
+      "prediction": -47.4284499593889,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8670",
+      "residual": 86.4284499593889,
+      "target_time": "2012-01-02 00:00:00"
+    },
+    {
+      "observed": 12,
+      "prediction": -63.82363053000957,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8671",
+      "residual": 75.82363053000957,
+      "target_time": "2012-01-02 01:00:00"
+    },
+    {
+      "observed": 7,
+      "prediction": -72.89323215067094,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8672",
+      "residual": 79.89323215067094,
+      "target_time": "2012-01-02 02:00:00"
+    },
+    {
+      "observed": 4,
+      "prediction": -90.05368600758511,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8673",
+      "residual": 94.05368600758511,
+      "target_time": "2012-01-02 04:00:00"
+    },
+    {
+      "observed": 4,
+      "prediction": -77.58475932793469,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8674",
+      "residual": 81.58475932793469,
+      "target_time": "2012-01-02 05:00:00"
+    },
+    {
+      "observed": 14,
+      "prediction": -32.915481353793055,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8675",
+      "residual": 46.915481353793055,
+      "target_time": "2012-01-02 06:00:00"
+    },
+    {
+      "observed": 16,
+      "prediction": 66.43070751125866,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8676",
+      "residual": -50.43070751125866,
+      "target_time": "2012-01-02 07:00:00"
+    },
+    {
+      "observed": 53,
+      "prediction": 172.59324194651848,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8677",
+      "residual": -119.59324194651848,
+      "target_time": "2012-01-02 08:00:00"
+    },
+    {
+      "observed": 68,
+      "prediction": 73.47202982530675,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8678",
+      "residual": -5.472029825306748,
+      "target_time": "2012-01-02 09:00:00"
+    },
+    {
+      "observed": 109,
+      "prediction": 40.483049109052146,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8679",
+      "residual": 68.51695089094785,
+      "target_time": "2012-01-02 10:00:00"
+    },
+    {
+      "observed": 175,
+      "prediction": 65.51610696028958,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8680",
+      "residual": 109.48389303971042,
+      "target_time": "2012-01-02 11:00:00"
+    },
+    {
+      "observed": 202,
+      "prediction": 99.95260255403747,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8681",
+      "residual": 102.04739744596253,
+      "target_time": "2012-01-02 12:00:00"
+    },
+    {
+      "observed": 176,
+      "prediction": 100.33996519139902,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8682",
+      "residual": 75.66003480860098,
+      "target_time": "2012-01-02 13:00:00"
+    },
+    {
+      "observed": 151,
+      "prediction": 92.49106409249825,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8683",
+      "residual": 58.50893590750175,
+      "target_time": "2012-01-02 14:00:00"
+    },
+    {
+      "observed": 168,
+      "prediction": 98.2822728837071,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8684",
+      "residual": 69.7177271162929,
+      "target_time": "2012-01-02 15:00:00"
+    },
+    {
+      "observed": 154,
+      "prediction": 144.6872940464196,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8685",
+      "residual": 9.312705953580405,
+      "target_time": "2012-01-02 16:00:00"
+    },
+    {
+      "observed": 153,
+      "prediction": 259.7831844573803,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8686",
+      "residual": -106.78318445738029,
+      "target_time": "2012-01-02 17:00:00"
+    },
+    {
+      "observed": 126,
+      "prediction": 232.23333287287244,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8687",
+      "residual": -106.23333287287244,
+      "target_time": "2012-01-02 18:00:00"
+    },
+    {
+      "observed": 93,
+      "prediction": 146.32975160565462,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8688",
+      "residual": -53.32975160565462,
+      "target_time": "2012-01-02 19:00:00"
+    },
+    {
+      "observed": 88,
+      "prediction": 83.01294719794294,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8689",
+      "residual": 4.987052802057065,
+      "target_time": "2012-01-02 20:00:00"
+    },
+    {
+      "observed": 66,
+      "prediction": 44.602478878381675,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8690",
+      "residual": 21.397521121618325,
+      "target_time": "2012-01-02 21:00:00"
+    },
+    {
+      "observed": 39,
+      "prediction": 13.753994029897335,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8691",
+      "residual": 25.246005970102665,
+      "target_time": "2012-01-02 22:00:00"
+    },
+    {
+      "observed": 34,
+      "prediction": -20.806920148648885,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8692",
+      "residual": 54.806920148648885,
+      "target_time": "2012-01-02 23:00:00"
+    },
+    {
+      "observed": 13,
+      "prediction": -47.82895304257055,
+      "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8693",
+      "residual": 60.82895304257055,
+      "target_time": "2012-01-03 00:00:00"
+    }
+  ],
+  "hour_slices": [
+    {
+      "hour": 0,
+      "mae": 54.391529675734304,
+      "mean_residual": 34.97704462565998,
+      "mse": 3941.2034580348313,
+      "rmse": 62.77900491434084,
+      "rows": 182
+    },
+    {
+      "hour": 1,
+      "mae": 55.71908190631068,
+      "mean_residual": 30.734862558918003,
+      "mse": 4089.532437628239,
+      "rmse": 63.94945220741331,
+      "rows": 182
+    },
+    {
+      "hour": 2,
+      "mae": 54.72783614387707,
+      "mean_residual": 28.1218820025591,
+      "mse": 3987.1498023253753,
+      "rmse": 63.14388174894996,
+      "rows": 181
+    },
+    {
+      "hour": 3,
+      "mae": 54.358923312893644,
+      "mean_residual": 26.436227840096215,
+      "mse": 3767.6313884523506,
+      "rmse": 61.38103443615422,
+      "rows": 176
+    },
+    {
+      "hour": 4,
+      "mae": 54.83994561971842,
+      "mean_residual": 27.35004650685233,
+      "mse": 3736.548756932758,
+      "rmse": 61.12731596375517,
+      "rows": 179
+    },
+    {
+      "hour": 5,
+      "mae": 54.00125337280966,
+      "mean_residual": 30.408079268931044,
+      "mse": 3777.9440330530024,
+      "rmse": 61.46498216914247,
+      "rows": 182
+    },
+    {
+      "hour": 6,
+      "mae": 68.8760570664228,
+      "mean_residual": 48.78825184423995,
+      "mse": 6017.425595873325,
+      "rmse": 77.57206711099894,
+      "rows": 182
+    },
+    {
+      "hour": 7,
+      "mae": 163.74636115979945,
+      "mean_residual": 105.5959091330344,
+      "mse": 33321.524713661354,
+      "rmse": 182.5418437335981,
+      "rows": 182
+    },
+    {
+      "hour": 8,
+      "mae": 259.43169352053263,
+      "mean_residual": 179.6256823900823,
+      "mse": 81078.32334983224,
+      "rmse": 284.7425562676437,
+      "rows": 182
+    },
+    {
+      "hour": 9,
+      "mae": 117.43251673455542,
+      "mean_residual": 113.05458681898631,
+      "mse": 17855.99163888931,
+      "rmse": 133.62631342250415,
+      "rows": 182
+    },
+    {
+      "hour": 10,
+      "mae": 94.55974972502784,
+      "mean_residual": 86.86224885392222,
+      "mse": 15765.790562127526,
+      "rmse": 125.5618993251039,
+      "rows": 182
+    },
+    {
+      "hour": 11,
+      "mae": 111.85535496468115,
+      "mean_residual": 102.59292726642107,
+      "mse": 24221.443883264437,
+      "rmse": 155.63239985062376,
+      "rows": 182
+    },
+    {
+      "hour": 12,
+      "mae": 129.5050079060785,
+      "mean_residual": 118.2113767276182,
+      "mse": 30785.325814225034,
+      "rmse": 175.4574758003347,
+      "rows": 182
+    },
+    {
+      "hour": 13,
+      "mae": 134.99554925469536,
+      "mean_residual": 123.4393987056413,
+      "mse": 34236.18694931588,
+      "rmse": 185.03023252786525,
+      "rows": 182
+    },
+    {
+      "hour": 14,
+      "mae": 127.51594504224394,
+      "mean_residual": 113.12346463970687,
+      "mse": 33195.069576931004,
+      "rmse": 182.19514147454922,
+      "rows": 182
+    },
+    {
+      "hour": 15,
+      "mae": 133.0627464162295,
+      "mean_residual": 121.35972837597056,
+      "mse": 33117.44525808997,
+      "rmse": 181.98199157633692,
+      "rows": 182
+    },
+    {
+      "hour": 16,
+      "mae": 153.7266034881987,
+      "mean_residual": 141.30086105941191,
+      "mse": 33888.31980440689,
+      "rmse": 184.08780460532114,
+      "rows": 182
+    },
+    {
+      "hour": 17,
+      "mae": 239.66385553153108,
+      "mean_residual": 201.58409152757216,
+      "mse": 76822.77893587956,
+      "rmse": 277.169224366414,
+      "rows": 182
+    },
+    {
+      "hour": 18,
+      "mae": 230.1067305976518,
+      "mean_residual": 195.1009760791129,
+      "mse": 74207.38602661813,
+      "rmse": 272.41032657852406,
+      "rows": 182
+    },
+    {
+      "hour": 19,
+      "mae": 166.88289088583667,
+      "mean_residual": 146.77378811556153,
+      "mse": 37762.46644117034,
+      "rmse": 194.32567108122987,
+      "rows": 182
+    },
+    {
+      "hour": 20,
+      "mae": 118.49904488563338,
+      "mean_residual": 107.47520790788857,
+      "mse": 19399.081911991372,
+      "rmse": 139.2805869889676,
+      "rows": 182
+    },
+    {
+      "hour": 21,
+      "mae": 90.29638460157788,
+      "mean_residual": 82.01754435931797,
+      "mse": 11012.753034590722,
+      "rmse": 104.94166491242038,
+      "rows": 182
+    },
+    {
+      "hour": 22,
+      "mae": 71.8413355882388,
+      "mean_residual": 64.93745777923088,
+      "mse": 7020.873788087164,
+      "rmse": 83.7906545390783,
+      "rows": 182
+    },
+    {
+      "hour": 23,
+      "mae": 56.87260917791185,
+      "mean_residual": 46.66320712261227,
+      "mse": 4486.762285519987,
+      "rmse": 66.98329855658041,
+      "rows": 182
+    }
+  ],
+  "negative_ids_sha256": {
+    "mean": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "median": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "ols": "8bc56fd8eb8781fd60d2adc3028c4d3fb4079e0bfb332475b8773dbb69f33e0a"
+  },
+  "selection": "First 48 development records and all 24 target-hour slices; signed residual=observed-predicted; raw predictions, no clipping/rounding or post-score feature changes"
+}

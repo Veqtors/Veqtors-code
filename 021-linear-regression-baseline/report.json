@@ -1,0 +1,320 @@
+{
+  "code_sha256": "28c663f786b501e020f8cabbd556675bcd7bece6e047ebe3c647d5cfe6478295",
+  "comparison": "OLS lower MAE",
+  "constants": {
+    "mean": 143.80749652938454,
+    "median": 109.0
+  },
+  "dataset_helper_sha256": "beca12d7b9df34179a269fdc3fefa4d9fb9f5d40efd7bb9c9d7d0555abe758a7",
+  "encoding": {
+    "augmented_columns": 41,
+    "augmented_rank": 41,
+    "categories": {
+      "hr": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "mnth": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "weekday_mon0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "centered_solver_rank": 40,
+    "encoded_columns": 40,
+    "names": [
+      "hr_1",
+      "hr_2",
+      "hr_3",
+      "hr_4",
+      "hr_5",
+      "hr_6",
+      "hr_7",
+      "hr_8",
+      "hr_9",
+      "hr_10",
+      "hr_11",
+      "hr_12",
+      "hr_13",
+      "hr_14",
+      "hr_15",
+      "hr_16",
+      "hr_17",
+      "hr_18",
+      "hr_19",
+      "hr_20",
+      "hr_21",
+      "hr_22",
+      "hr_23",
+      "mnth_2",
+      "mnth_3",
+      "mnth_4",
+      "mnth_5",
+      "mnth_6",
+      "mnth_7",
+      "mnth_8",
+      "mnth_9",
+      "mnth_10",
+      "mnth_11",
+      "mnth_12",
+      "weekday_mon0_1",
+      "weekday_mon0_2",
+      "weekday_mon0_3",
+      "weekday_mon0_4",
+      "weekday_mon0_5",
+      "weekday_mon0_6"
+    ],
+    "reference_categories": {
+      "hr": 0,
+      "mnth": 1,
+      "weekday_mon0": 0
+    },
+    "unknown_validation_counts": {
+      "hr": 0,
+      "mnth": 0,
+      "weekday_mon0": 0
+    }
+  },
+  "final_metrics": null,
+  "full_source_mechanical_logical_sha256": "4305923354cf9d3398076c9fc5d29553bf00e95adb0213fcb0c978d1bc82998a",
+  "hardware": {
+    "logical_cpus": 12,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD"
+  },
+  "model_config_sha256": "f0ef2ba3ca5dc197e756fa6ca2e71ce7adffaf085b8c4726fd79c3ffd793a4d9",
+  "ols_minus_median_validation_mae": -43.2677746708696,
+  "partitions": {
+    "contract": {
+      "comparison_tolerance": 1e-09,
+      "declared_before_any_fit": true,
+      "diagnostics": "First 48 development records and all 24 target-hour slices; signed residual=observed-predicted; raw predictions, no clipping/rounding or post-score feature changes",
+      "encoding": {
+        "categories": "auto, learned on training only",
+        "drop": "first",
+        "handle_unknown": "ignore",
+        "sparse_output": false
+      },
+      "feature_policy": "Only requested target calendar fields; no weather, season, holiday, workingday, raw IDs/date/year, target or target components, lags or interactions",
+      "features": [
+        "hr",
+        "mnth",
+        "weekday_mon0"
+      ],
+      "final_test": "No fitting, predictions, scores or target-specific diagnostics until later #25 selection/report gate",
+      "fit_cadence": "Once at first development issuance; frozen through validation",
+      "issue_lead_hours": 1,
+      "models": [
+        "DummyRegressor median",
+        "DummyRegressor mean",
+        "LinearRegression fit_intercept=True positive=False no weights"
+      ],
+      "primary_metric": "MAE, rentals per represented hourly observation; median main reference",
+      "prior_access": "#19 whole-source mechanical schema/domain/component integrity checks read all count fields before this protocol; final targets are not literally unseen",
+      "readiness_equality_allowed": true,
+      "readiness_qualification": "Hypothetical immediate aggregate availability; train target t allowed only if t+1h <= first validation issuance. Not an operational source guarantee.",
+      "reporting_delay_hours": 0,
+      "reserved_start": "2012-07-01T00:00:00",
+      "secondary_metrics": [
+        "MSE squared rental count",
+        "RMSE rental count"
+      ],
+      "selection_basis": "Documented 2011-2012 coverage; user-prescribed calendar windows, never model scores",
+      "target_interval_hours": 1,
+      "time_semantics": "Naive source-calendar interval-start labels by convention, not verified UTC/timezone/DST or elapsed-hour semantics",
+      "train_start": "2011-01-01T00:00:00",
+      "validation_start": "2012-01-01T00:00:00",
+      "version": 1,
+      "windows": "Half-open target-label windows; training is 2011 calendar year before readiness exclusion"
+    },
+    "contract_sha256": "31a5009f7423323fd79907f1dbfb0ca31d57101f7ff423b088933e992333b334",
+    "excluded_ids": [
+      "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8645"
+    ],
+    "first_validation_issuance": "2011-12-31 23:00:00",
+    "partitions": {
+      "readiness_excluded": {
+        "count": 1,
+        "first": "2011-12-31 23:00:00",
+        "last": "2011-12-31 23:00:00",
+        "ordered_ids_sha256": "01bebfc6b17a14a55a7b2759c31e125fde800e5d70f9c4142f221dd6b1bfb580"
+      },
+      "reserved": {
+        "count": 4376,
+        "first": "2012-07-01 00:00:00",
+        "last": "2012-12-31 23:00:00",
+        "ordered_ids_sha256": "a7717b2b28a7398ad331b7cb3bc1fc7b0931e88cc2e446806fc405e45a03342e"
+      },
+      "train": {
+        "count": 8644,
+        "first": "2011-01-01 00:00:00",
+        "last": "2011-12-31 22:00:00",
+        "ordered_ids_sha256": "3d4ee7e6bd7caf76c004213eefcf2d3ed7c3bb9dca03a800ae723f949b5e695e"
+      },
+      "validation": {
+        "count": 4358,
+        "first": "2012-01-01 00:00:00",
+        "last": "2012-06-30 23:00:00",
+        "ordered_ids_sha256": "01acde00b1aed53f4f42e2ba3727ad6f9a021ed69a4db61f18ac2cb9730dad74"
+      }
+    }
+  },
+  "predictions_parquet_sha256": "670b9e96b899998185a30bc6036c2a706864461c727a27c5643f4b5fefee25dd",
+  "runtime": {
+    "boundary": "verified local ZIP read through preparation/freeze, fit, train+dev predict/metrics, trace/rank/diagnostics/artifacts; excludes final report write and dependency installation",
+    "process_cpu_seconds": 0.515625,
+    "repetitions": 1,
+    "wall_seconds": 0.561590299999807
+  },
+  "scores": {
+    "mean": {
+      "train": {
+        "mae": 106.59518330181602,
+        "minimum_prediction": 143.80749652938454,
+        "mse": 17900.393761479052,
+        "negative_count": 0,
+        "rmse": 133.79235315024192,
+        "rows": 8644
+      },
+      "validation": {
+        "mae": 154.23052351343298,
+        "minimum_prediction": 143.80749652938454,
+        "mse": 43326.01468669023,
+        "negative_count": 0,
+        "rmse": 208.14902038369104,
+        "rows": 4358
+      }
+    },
+    "median": {
+      "train": {
+        "mae": 103.30402591392874,
+        "minimum_prediction": 109.0,
+        "mse": 19111.955576122167,
+        "negative_count": 0,
+        "rmse": 138.2459966007051,
+        "rows": 8644
+      },
+      "validation": {
+        "mae": 159.94791188618632,
+        "minimum_prediction": 109.0,
+        "mse": 49504.90385497935,
+        "negative_count": 0,
+        "rmse": 222.4969749344457,
+        "rows": 4358
+      }
+    },
+    "ols": {
+      "train": {
+        "mae": 59.22772141710478,
+        "minimum_prediction": -99.44008721736398,
+        "mse": 6341.699355150133,
+        "negative_count": 805,
+        "rmse": 79.6347873429077,
+        "rows": 8644
+      },
+      "validation": {
+        "mae": 116.68013721531672,
+        "minimum_prediction": -99.44008721736398,
+        "mse": 24944.075271898142,
+        "negative_count": 733,
+        "rmse": 157.93693447670225,
+        "rows": 4358
+      }
+    }
+  },
+  "threadpools_during_fit": [
+    {
+      "architecture": "Haswell",
+      "filepath": "C:\\Users\\Imtiaz\\AppData\\Local\\Temp\\opencode\\ml-foundations-313\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.29"
+    },
+    {
+      "filepath": "C:\\Users\\Imtiaz\\AppData\\Local\\Temp\\opencode\\ml-foundations-313\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "user_api": "openmp",
+      "version": null
+    },
+    {
+      "architecture": "Haswell",
+      "filepath": "C:\\Users\\Imtiaz\\AppData\\Local\\Temp\\opencode\\ml-foundations-313\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "threading_layer": "pthreads",
+      "user_api": "blas",
+      "version": "0.3.31.dev"
+    }
+  ],
+  "timings": {
+    "mean": {
+      "fit_predict_cpu_seconds": 0.0,
+      "fit_predict_wall_seconds": 0.00021750000087195076
+    },
+    "median": {
+      "fit_predict_cpu_seconds": 0.0,
+      "fit_predict_wall_seconds": 0.00058309999985795
+    },
+    "ols": {
+      "fit_predict_cpu_seconds": 0.015625,
+      "fit_predict_wall_seconds": 0.017900099999678787
+    }
+  },
+  "train_input_sha256": "e06683b57142992357c774ccf531666d23f7abaae0fbe14dfb8f509dfc1e6a5a",
+  "validation_input_sha256": "f2b96492e433425f85cb8a8e2c6b358e259dbfbaddfdad5e51602e23e8435f54",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0",
+    "pytest": "8.4.2",
+    "python": "3.13.12",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.18.1"
+  }
+}

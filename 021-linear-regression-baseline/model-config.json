@@ -1,0 +1,23 @@
+{
+  "contract_sha256": "31a5009f7423323fd79907f1dbfb0ca31d57101f7ff423b088933e992333b334",
+  "dummies": [
+    "median",
+    "mean"
+  ],
+  "encoding": {
+    "categories": "auto, learned on training only",
+    "drop": "first",
+    "handle_unknown": "ignore",
+    "sparse_output": false
+  },
+  "linear": {
+    "copy_X": true,
+    "fit_intercept": true,
+    "n_jobs": 1,
+    "positive": false,
+    "tol": 1e-06
+  },
+  "postprocessing": null,
+  "threads": 1,
+  "weights": null
+}

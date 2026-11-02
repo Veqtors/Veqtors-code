@@ -1,0 +1,75 @@
+{
+  "contract": {
+    "comparison_tolerance": 1e-09,
+    "declared_before_any_fit": true,
+    "diagnostics": "First 48 development records and all 24 target-hour slices; signed residual=observed-predicted; raw predictions, no clipping/rounding or post-score feature changes",
+    "encoding": {
+      "categories": "auto, learned on training only",
+      "drop": "first",
+      "handle_unknown": "ignore",
+      "sparse_output": false
+    },
+    "feature_policy": "Only requested target calendar fields; no weather, season, holiday, workingday, raw IDs/date/year, target or target components, lags or interactions",
+    "features": [
+      "hr",
+      "mnth",
+      "weekday_mon0"
+    ],
+    "final_test": "No fitting, predictions, scores or target-specific diagnostics until later #25 selection/report gate",
+    "fit_cadence": "Once at first development issuance; frozen through validation",
+    "issue_lead_hours": 1,
+    "models": [
+      "DummyRegressor median",
+      "DummyRegressor mean",
+      "LinearRegression fit_intercept=True positive=False no weights"
+    ],
+    "primary_metric": "MAE, rentals per represented hourly observation; median main reference",
+    "prior_access": "#19 whole-source mechanical schema/domain/component integrity checks read all count fields before this protocol; final targets are not literally unseen",
+    "readiness_equality_allowed": true,
+    "readiness_qualification": "Hypothetical immediate aggregate availability; train target t allowed only if t+1h <= first validation issuance. Not an operational source guarantee.",
+    "reporting_delay_hours": 0,
+    "reserved_start": "2012-07-01T00:00:00",
+    "secondary_metrics": [
+      "MSE squared rental count",
+      "RMSE rental count"
+    ],
+    "selection_basis": "Documented 2011-2012 coverage; user-prescribed calendar windows, never model scores",
+    "target_interval_hours": 1,
+    "time_semantics": "Naive source-calendar interval-start labels by convention, not verified UTC/timezone/DST or elapsed-hour semantics",
+    "train_start": "2011-01-01T00:00:00",
+    "validation_start": "2012-01-01T00:00:00",
+    "version": 1,
+    "windows": "Half-open target-label windows; training is 2011 calendar year before readiness exclusion"
+  },
+  "contract_sha256": "31a5009f7423323fd79907f1dbfb0ca31d57101f7ff423b088933e992333b334",
+  "excluded_ids": [
+    "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8645"
+  ],
+  "first_validation_issuance": "2011-12-31 23:00:00",
+  "partitions": {
+    "readiness_excluded": {
+      "count": 1,
+      "first": "2011-12-31 23:00:00",
+      "last": "2011-12-31 23:00:00",
+      "ordered_ids_sha256": "01bebfc6b17a14a55a7b2759c31e125fde800e5d70f9c4142f221dd6b1bfb580"
+    },
+    "reserved": {
+      "count": 4376,
+      "first": "2012-07-01 00:00:00",
+      "last": "2012-12-31 23:00:00",
+      "ordered_ids_sha256": "a7717b2b28a7398ad331b7cb3bc1fc7b0931e88cc2e446806fc405e45a03342e"
+    },
+    "train": {
+      "count": 8644,
+      "first": "2011-01-01 00:00:00",
+      "last": "2011-12-31 22:00:00",
+      "ordered_ids_sha256": "3d4ee7e6bd7caf76c004213eefcf2d3ed7c3bb9dca03a800ae723f949b5e695e"
+    },
+    "validation": {
+      "count": 4358,
+      "first": "2012-01-01 00:00:00",
+      "last": "2012-06-30 23:00:00",
+      "ordered_ids_sha256": "01acde00b1aed53f4f42e2ba3727ad6f9a021ed69a4db61f18ac2cb9730dad74"
+    }
+  }
+}
