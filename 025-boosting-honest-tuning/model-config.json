@@ -1,0 +1,59 @@
+{
+  "written": "2026-11-05, before any model fit",
+  "seed": 25,
+  "dataset": {
+    "source": "UCI Machine Learning Repository, id 165 (Concrete Compressive Strength, Yeh 1998), via ucimlrepo",
+    "cache": "data/concrete.csv (SHA-256 recorded in data/concrete.csv.sha256)",
+    "features": ["Cement", "Blast Furnace Slag", "Fly Ash", "Water", "Superplasticizer", "Coarse Aggregate", "Fine Aggregate", "Age"],
+    "target": "Concrete compressive strength",
+    "recipe_group": "exact tuple of the seven ingredient columns (Age excluded)"
+  },
+  "partition": {
+    "test_fraction_of_recipes": 0.2,
+    "rule": "shuffle sorted recipe ids with numpy default_rng(seed); first round(0.2 * n_recipes) are test",
+    "file": "partitions.json"
+  },
+  "folds": {
+    "inner": "GroupKFold(n_splits=5, shuffle=True, random_state=seed), groups = recipe id",
+    "outer": "GroupKFold(n_splits=5, shuffle=True, random_state=seed), groups = recipe id",
+    "optimism_check": "KFold(n_splits=5, shuffle=True, random_state=seed), rows shuffled, groups ignored"
+  },
+  "metric": "mean absolute error (MPa), lower is better",
+  "model": {
+    "estimator": "sklearn.ensemble.HistGradientBoostingRegressor",
+    "fixed": {"loss": "squared_error", "early_stopping": false, "random_state": 25},
+    "loss_note": "trained on squared error (the default, so residual = negative gradient); scored on MAE, the declared question from #23"
+  },
+  "search_space": {
+    "learning_rate": {"low": 0.01, "high": 0.5, "log": true, "type": "float"},
+    "max_iter": {"low": 50, "high": 800, "log": true, "type": "int"},
+    "max_leaf_nodes": {"low": 4, "high": 64, "log": true, "type": "int"},
+    "min_samples_leaf": {"low": 2, "high": 40, "log": true, "type": "int"},
+    "l2_regularization": {"low": 0.001, "high": 10.0, "log": true, "type": "float"}
+  },
+  "search": {
+    "trial_budget": 40,
+    "trial_budget_equal_for_both_samplers": true,
+    "bayesian_sampler": "optuna.samplers.GPSampler(seed=25, n_startup_trials=10, deterministic_objective=True)",
+    "bayesian_acquisition": "logEI (single objective, unconstrained)",
+    "random_sampler": "optuna.samplers.RandomSampler(seed=25)",
+    "optuna_version": "5.0.0",
+    "torch_version": "2.15.0",
+    "scipy_version": "1.18.1",
+    "deterministic_objective_reason": "fixed folds and random_state make each trial's CV score exactly repeatable"
+  },
+  "one_knob_demo": {
+    "knob": "learning_rate (log scale, 0.01 to 0.5); other settings at scikit-learn defaults except early_stopping=False",
+    "sampler": "GPSampler(seed=25, n_startup_trials=4, deterministic_objective=True)",
+    "trials": 10,
+    "surrogate_snapshot_after_trial": 6,
+    "folds": "the inner GroupKFold on the training recipes"
+  },
+  "baselines": ["median of training targets", "LinearRegression on the 8 raw inputs", "HistGradientBoostingRegressor defaults with early_stopping=False"],
+  "nested_cv": "outer grouped folds around the full GPSampler search (same budget, inner grouped folds on each outer-training part); best params refit on the outer-training part and scored on its outer fold; baselines scored on the same outer folds",
+  "decision_rule": "keep the tuned model as the final model only if its mean nested-CV MAE gain over default boosting (paired by outer fold) is larger than the SD of those 5 paired gains; otherwise the final model is default boosting. Decided before the test set is opened.",
+  "test_opening": "exactly once, after the decision; scores median, linear, default boosting, random-search-tuned and GP-tuned boosting (each refit on all training rows) on identical test rows",
+  "named_test_errors_rule": "report the test rows with the median and the maximum absolute error of the final model, with every model's prediction",
+  "n_jobs": 1,
+  "threads": "OMP_NUM_THREADS=1 set before import"
+}

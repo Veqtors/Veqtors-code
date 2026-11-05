@@ -20,6 +20,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | #21 Fixed constant and linear baselines | [`021-linear-regression-baseline`](021-linear-regression-baseline) | Paired mean/median/OLS baselines, development metrics, coefficient trace and residual diagnostics |
 | #22 Logistic regression and thresholds | [`022-logistic-regression-thresholds`](022-logistic-regression-thresholds) | Standalone prior/logistic baselines, frozen training-only labels, paired log loss, fixed decision policies and reproducibility receipts |
 | #24 Where a decision tree draws the line | [`024-decision-trees-and-forests`](024-decision-trees-and-forests) | Hand-checked split lab, constrained tree, 100-tree forest and unrestricted diagnostic against the #21 baselines on the same development rows |
+| #25 Many weak trees, one honest score | [`025-boosting-honest-tuning`](025-boosting-honest-tuning) | Gradient boosting by hand, grouped-by-recipe CV on UCI Concrete, Bayesian (GP) vs random search at equal budget, nested CV and a once-opened test set |
 
 Completed experiments contain their recorded output in `RESULTS.md`. Issue 011 is still in progress; see its README for setup and limits. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 
