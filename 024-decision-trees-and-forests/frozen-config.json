@@ -1,0 +1,99 @@
+{
+  "baseline_reference_sha256": "9a1df87ec989fb534412a4804612318fa35cd3679c432a8f5cb7a002fc0af798",
+  "declared_before_any_fit": true,
+  "encoder": {
+    "categories": "auto",
+    "drop": "first",
+    "dtype": "float64",
+    "feature_name_combiner": "concat",
+    "handle_unknown": "ignore",
+    "max_categories": null,
+    "min_frequency": null,
+    "sparse_output": false
+  },
+  "feature_policy_clarification": "No engineered interaction columns; tree paths may learn conditional interactions on the same 40 columns. protocol.json is the inherited #21 receipt, not the complete #24 model declaration.",
+  "inherited_contract_sha256": "31a5009f7423323fd79907f1dbfb0ca31d57101f7ff423b088933e992333b334",
+  "issue": 24,
+  "models": {
+    "diagnostic": {
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": 6,
+      "max_features": 0.7,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 20,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "mean": {
+      "constant": null,
+      "quantile": null,
+      "strategy": "mean"
+    },
+    "median": {
+      "constant": null,
+      "quantile": null,
+      "strategy": "median"
+    },
+    "ols": {
+      "copy_X": true,
+      "fit_intercept": true,
+      "n_jobs": 1,
+      "positive": false,
+      "tol": 1e-06
+    },
+    "tree": {
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": 6,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 20,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    }
+  },
+  "objective": "OLS/tree/forest squared-error training; constants median/mean; primary evaluation MAE, secondary MSE/RMSE",
+  "postprocessing": null,
+  "search": null,
+  "size_definition": "len(pickle.dumps((fitted_encoder, fitted_estimator), protocol=5)); standalone inference pair, metadata overhead included; in memory only",
+  "threads": 1,
+  "timing_definition": "Separate perf_counter wall/process_time CPU fit and train/development predict calls; encoder preparation timed separately; metrics/serialization excluded from per-model times",
+  "tolerances": {
+    "constant_atol": 1e-12,
+    "metric_atol": 1e-08,
+    "metric_rtol": 1e-12,
+    "prediction_atol": 1e-09,
+    "prediction_rtol": 1e-12,
+    "ranking_mae_atol": 1e-09
+  },
+  "weights": null
+}

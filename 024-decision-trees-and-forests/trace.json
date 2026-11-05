@@ -1,0 +1,6053 @@
+{
+  "encoded_names": [
+    "hr_1",
+    "hr_2",
+    "hr_3",
+    "hr_4",
+    "hr_5",
+    "hr_6",
+    "hr_7",
+    "hr_8",
+    "hr_9",
+    "hr_10",
+    "hr_11",
+    "hr_12",
+    "hr_13",
+    "hr_14",
+    "hr_15",
+    "hr_16",
+    "hr_17",
+    "hr_18",
+    "hr_19",
+    "hr_20",
+    "hr_21",
+    "hr_22",
+    "hr_23",
+    "mnth_2",
+    "mnth_3",
+    "mnth_4",
+    "mnth_5",
+    "mnth_6",
+    "mnth_7",
+    "mnth_8",
+    "mnth_9",
+    "mnth_10",
+    "mnth_11",
+    "mnth_12",
+    "weekday_mon0_1",
+    "weekday_mon0_2",
+    "weekday_mon0_3",
+    "weekday_mon0_4",
+    "weekday_mon0_5",
+    "weekday_mon0_6"
+  ],
+  "encoded_values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "features": {
+    "hr": 0,
+    "mnth": 1,
+    "weekday_mon0": 6
+  },
+  "forest_average_verification": {
+    "train": {
+      "max_absolute_difference": 2.2737367544323206e-13,
+      "rows": 8644
+    },
+    "validation": {
+      "max_absolute_difference": 2.2737367544323206e-13,
+      "rows": 4358
+    }
+  },
+  "forest_first_row_mean": 121.37639044577128,
+  "forest_first_row_per_tree": [
+    112.09207477213039,
+    140.10442696282584,
+    110.71209800918837,
+    113.71155033971587,
+    112.45235521235522,
+    138.0667694680031,
+    112.22227385377943,
+    111.37229908285403,
+    113.88464500231018,
+    149.34123222748815,
+    113.96976309226933,
+    114.00401668469026,
+    112.57573882098097,
+    125.1882407985028,
+    135.18750959030228,
+    112.21203703703704,
+    112.16807887844708,
+    124.58762727553224,
+    111.55899659337256,
+    111.30382664822498,
+    110.71614185264445,
+    113.05431309904154,
+    126.76975519057949,
+    124.15089078233927,
+    111.12176839528836,
+    112.40131578947368,
+    111.54858019953953,
+    137.91169305724725,
+    124.5138995545999,
+    110.78147523385984,
+    112.0372622388525,
+    125.24106463878327,
+    149.8360153256705,
+    123.36045792079207,
+    149.5446249033256,
+    113.99001842751842,
+    135.4162812210916,
+    112.59147180192572,
+    111.49154907737633,
+    112.56529821843532,
+    111.65907341850085,
+    122.11012677562242,
+    148.33139178418148,
+    113.30879188441439,
+    111.25414364640883,
+    113.1671270718232,
+    148.4292944785276,
+    125.20229599751784,
+    111.89238845144357,
+    113.05765934237182,
+    110.83846034935848,
+    110.20702460157821,
+    123.07970131057604,
+    137.06913429183237,
+    136.0473400154202,
+    125.11701156421181,
+    110.85941807044411,
+    122.76420366345856,
+    112.54468802698145,
+    137.3968107942349,
+    124.81180297397769,
+    113.81422802112458,
+    112.84423723631917,
+    110.78176197836167,
+    123.80663068619891,
+    112.52809676925432,
+    112.40793332304368,
+    112.27628929843581,
+    113.27262931034483,
+    135.8377335186043,
+    111.66272643536998,
+    112.30082438948514,
+    135.92909201336167,
+    110.3429403648628,
+    111.79643570440928,
+    138.26406394097756,
+    136.57294552169898,
+    124.99412855377008,
+    111.66379972354477,
+    149.9816951238271,
+    150.76051829268292,
+    111.7977373490292,
+    113.73300522916026,
+    137.66738527871883,
+    111.11678832116789,
+    113.12866043613707,
+    113.75938122223924,
+    113.774568288854,
+    112.18487782388198,
+    126.06655420947708,
+    123.53419793114097,
+    150.0186887254902,
+    112.83577486507325,
+    125.44303011487116,
+    137.17709923664123,
+    110.61728776867172,
+    112.10123647604328,
+    123.59067757369965,
+    112.49210770659239,
+    149.85395002328107
+  ],
+  "observed": 48,
+  "paths": {
+    "diagnostic": {
+      "estimator_prediction": 27.2,
+      "leaf": 1354,
+      "leaf_training_mean": 27.2,
+      "steps": [
+        {
+          "branch": "left",
+          "feature": "hr_17",
+          "next_node": 1,
+          "node": 0,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_18",
+          "next_node": 2,
+          "node": 1,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_8",
+          "next_node": 3,
+          "node": 2,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_19",
+          "next_node": 4,
+          "node": 3,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_16",
+          "next_node": 5,
+          "node": 4,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_4",
+          "next_node": 6,
+          "node": 5,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_3",
+          "next_node": 7,
+          "node": 6,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_5",
+          "next_node": 8,
+          "node": 7,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_2",
+          "next_node": 9,
+          "node": 8,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_1",
+          "next_node": 10,
+          "node": 9,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_6",
+          "next_node": 11,
+          "node": 10,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_23",
+          "next_node": 12,
+          "node": 11,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_2",
+          "next_node": 13,
+          "node": 12,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_3",
+          "next_node": 14,
+          "node": 13,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_22",
+          "next_node": 15,
+          "node": 14,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "right",
+          "feature": "weekday_mon0_6",
+          "next_node": 1335,
+          "node": 15,
+          "threshold": 0.5,
+          "value": 1.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_7",
+          "next_node": 1336,
+          "node": 1335,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_21",
+          "next_node": 1337,
+          "node": 1336,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_9",
+          "next_node": 1338,
+          "node": 1337,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_20",
+          "next_node": 1339,
+          "node": 1338,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_13",
+          "next_node": 1340,
+          "node": 1339,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_12",
+          "next_node": 1341,
+          "node": 1340,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_14",
+          "next_node": 1342,
+          "node": 1341,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_15",
+          "next_node": 1343,
+          "node": 1342,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_11",
+          "next_node": 1344,
+          "node": 1343,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_10",
+          "next_node": 1345,
+          "node": 1344,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_7",
+          "next_node": 1346,
+          "node": 1345,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_9",
+          "next_node": 1347,
+          "node": 1346,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_6",
+          "next_node": 1348,
+          "node": 1347,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_5",
+          "next_node": 1349,
+          "node": 1348,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_10",
+          "next_node": 1350,
+          "node": 1349,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_8",
+          "next_node": 1351,
+          "node": 1350,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_11",
+          "next_node": 1352,
+          "node": 1351,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_12",
+          "next_node": 1353,
+          "node": 1352,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "mnth_4",
+          "next_node": 1354,
+          "node": 1353,
+          "threshold": 0.5,
+          "value": 0.0
+        }
+      ]
+    },
+    "forest": [
+      {
+        "estimator_prediction": 112.09207477213039,
+        "leaf": 6,
+        "leaf_training_mean": 112.09207477213039,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 140.10442696282584,
+        "leaf": 6,
+        "leaf_training_mean": 140.10442696282584,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.71209800918837,
+        "leaf": 6,
+        "leaf_training_mean": 110.71209800918837,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.71155033971587,
+        "leaf": 6,
+        "leaf_training_mean": 113.71155033971587,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.45235521235522,
+        "leaf": 6,
+        "leaf_training_mean": 112.45235521235522,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 138.0667694680031,
+        "leaf": 6,
+        "leaf_training_mean": 138.0667694680031,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.22227385377943,
+        "leaf": 6,
+        "leaf_training_mean": 112.22227385377943,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.37229908285403,
+        "leaf": 6,
+        "leaf_training_mean": 111.37229908285403,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.88464500231018,
+        "leaf": 6,
+        "leaf_training_mean": 113.88464500231018,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 149.34123222748815,
+        "leaf": 6,
+        "leaf_training_mean": 149.34123222748815,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.96976309226933,
+        "leaf": 6,
+        "leaf_training_mean": 113.96976309226933,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 114.00401668469026,
+        "leaf": 6,
+        "leaf_training_mean": 114.00401668469026,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.57573882098097,
+        "leaf": 6,
+        "leaf_training_mean": 112.57573882098097,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 125.1882407985028,
+        "leaf": 6,
+        "leaf_training_mean": 125.1882407985028,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 135.18750959030228,
+        "leaf": 6,
+        "leaf_training_mean": 135.18750959030228,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.21203703703704,
+        "leaf": 6,
+        "leaf_training_mean": 112.21203703703704,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.16807887844708,
+        "leaf": 6,
+        "leaf_training_mean": 112.16807887844708,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 124.58762727553224,
+        "leaf": 6,
+        "leaf_training_mean": 124.58762727553224,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.55899659337256,
+        "leaf": 6,
+        "leaf_training_mean": 111.55899659337256,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.30382664822498,
+        "leaf": 6,
+        "leaf_training_mean": 111.30382664822498,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.71614185264445,
+        "leaf": 6,
+        "leaf_training_mean": 110.71614185264445,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.05431309904154,
+        "leaf": 6,
+        "leaf_training_mean": 113.05431309904154,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 126.76975519057949,
+        "leaf": 6,
+        "leaf_training_mean": 126.76975519057949,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 124.15089078233927,
+        "leaf": 6,
+        "leaf_training_mean": 124.15089078233927,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.12176839528836,
+        "leaf": 6,
+        "leaf_training_mean": 111.12176839528836,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.40131578947368,
+        "leaf": 6,
+        "leaf_training_mean": 112.40131578947368,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.54858019953953,
+        "leaf": 6,
+        "leaf_training_mean": 111.54858019953953,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 137.91169305724725,
+        "leaf": 6,
+        "leaf_training_mean": 137.91169305724725,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 124.5138995545999,
+        "leaf": 6,
+        "leaf_training_mean": 124.5138995545999,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.78147523385984,
+        "leaf": 6,
+        "leaf_training_mean": 110.78147523385984,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.0372622388525,
+        "leaf": 6,
+        "leaf_training_mean": 112.0372622388525,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 125.24106463878327,
+        "leaf": 6,
+        "leaf_training_mean": 125.24106463878327,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 149.8360153256705,
+        "leaf": 6,
+        "leaf_training_mean": 149.8360153256705,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 123.36045792079207,
+        "leaf": 6,
+        "leaf_training_mean": 123.36045792079207,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 149.5446249033256,
+        "leaf": 6,
+        "leaf_training_mean": 149.5446249033256,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.99001842751842,
+        "leaf": 6,
+        "leaf_training_mean": 113.99001842751842,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 135.4162812210916,
+        "leaf": 6,
+        "leaf_training_mean": 135.4162812210916,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.59147180192572,
+        "leaf": 6,
+        "leaf_training_mean": 112.59147180192572,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.49154907737633,
+        "leaf": 6,
+        "leaf_training_mean": 111.49154907737633,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.56529821843532,
+        "leaf": 6,
+        "leaf_training_mean": 112.56529821843532,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.65907341850085,
+        "leaf": 6,
+        "leaf_training_mean": 111.65907341850085,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 122.11012677562242,
+        "leaf": 6,
+        "leaf_training_mean": 122.11012677562242,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 148.33139178418148,
+        "leaf": 6,
+        "leaf_training_mean": 148.33139178418148,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.30879188441439,
+        "leaf": 6,
+        "leaf_training_mean": 113.30879188441439,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.25414364640883,
+        "leaf": 6,
+        "leaf_training_mean": 111.25414364640883,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.1671270718232,
+        "leaf": 6,
+        "leaf_training_mean": 113.1671270718232,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 148.4292944785276,
+        "leaf": 6,
+        "leaf_training_mean": 148.4292944785276,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_1",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 125.20229599751784,
+        "leaf": 6,
+        "leaf_training_mean": 125.20229599751784,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.89238845144357,
+        "leaf": 6,
+        "leaf_training_mean": 111.89238845144357,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.05765934237182,
+        "leaf": 6,
+        "leaf_training_mean": 113.05765934237182,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.83846034935848,
+        "leaf": 6,
+        "leaf_training_mean": 110.83846034935848,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.20702460157821,
+        "leaf": 6,
+        "leaf_training_mean": 110.20702460157821,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 123.07970131057604,
+        "leaf": 6,
+        "leaf_training_mean": 123.07970131057604,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 137.06913429183237,
+        "leaf": 6,
+        "leaf_training_mean": 137.06913429183237,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 136.0473400154202,
+        "leaf": 6,
+        "leaf_training_mean": 136.0473400154202,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 125.11701156421181,
+        "leaf": 6,
+        "leaf_training_mean": 125.11701156421181,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.85941807044411,
+        "leaf": 6,
+        "leaf_training_mean": 110.85941807044411,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 122.76420366345856,
+        "leaf": 6,
+        "leaf_training_mean": 122.76420366345856,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.54468802698145,
+        "leaf": 6,
+        "leaf_training_mean": 112.54468802698145,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 137.3968107942349,
+        "leaf": 6,
+        "leaf_training_mean": 137.3968107942349,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 124.81180297397769,
+        "leaf": 6,
+        "leaf_training_mean": 124.81180297397769,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.81422802112458,
+        "leaf": 6,
+        "leaf_training_mean": 113.81422802112458,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.84423723631917,
+        "leaf": 6,
+        "leaf_training_mean": 112.84423723631917,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.78176197836167,
+        "leaf": 6,
+        "leaf_training_mean": 110.78176197836167,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 123.80663068619891,
+        "leaf": 6,
+        "leaf_training_mean": 123.80663068619891,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.52809676925432,
+        "leaf": 6,
+        "leaf_training_mean": 112.52809676925432,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.40793332304368,
+        "leaf": 6,
+        "leaf_training_mean": 112.40793332304368,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.27628929843581,
+        "leaf": 6,
+        "leaf_training_mean": 112.27628929843581,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.27262931034483,
+        "leaf": 6,
+        "leaf_training_mean": 113.27262931034483,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 135.8377335186043,
+        "leaf": 6,
+        "leaf_training_mean": 135.8377335186043,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.66272643536998,
+        "leaf": 6,
+        "leaf_training_mean": 111.66272643536998,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.30082438948514,
+        "leaf": 6,
+        "leaf_training_mean": 112.30082438948514,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 135.92909201336167,
+        "leaf": 6,
+        "leaf_training_mean": 135.92909201336167,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.3429403648628,
+        "leaf": 6,
+        "leaf_training_mean": 110.3429403648628,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.79643570440928,
+        "leaf": 6,
+        "leaf_training_mean": 111.79643570440928,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 138.26406394097756,
+        "leaf": 6,
+        "leaf_training_mean": 138.26406394097756,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 136.57294552169898,
+        "leaf": 6,
+        "leaf_training_mean": 136.57294552169898,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 124.99412855377008,
+        "leaf": 6,
+        "leaf_training_mean": 124.99412855377008,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.66379972354477,
+        "leaf": 6,
+        "leaf_training_mean": 111.66379972354477,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 149.9816951238271,
+        "leaf": 6,
+        "leaf_training_mean": 149.9816951238271,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_1",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 150.76051829268292,
+        "leaf": 6,
+        "leaf_training_mean": 150.76051829268292,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_1",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.7977373490292,
+        "leaf": 6,
+        "leaf_training_mean": 111.7977373490292,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.73300522916026,
+        "leaf": 6,
+        "leaf_training_mean": 113.73300522916026,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 137.66738527871883,
+        "leaf": 6,
+        "leaf_training_mean": 137.66738527871883,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 111.11678832116789,
+        "leaf": 6,
+        "leaf_training_mean": 111.11678832116789,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.12866043613707,
+        "leaf": 6,
+        "leaf_training_mean": 113.12866043613707,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.75938122223924,
+        "leaf": 6,
+        "leaf_training_mean": 113.75938122223924,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 113.774568288854,
+        "leaf": 6,
+        "leaf_training_mean": 113.774568288854,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.18487782388198,
+        "leaf": 6,
+        "leaf_training_mean": 112.18487782388198,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 126.06655420947708,
+        "leaf": 6,
+        "leaf_training_mean": 126.06655420947708,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 123.53419793114097,
+        "leaf": 6,
+        "leaf_training_mean": 123.53419793114097,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 150.0186887254902,
+        "leaf": 6,
+        "leaf_training_mean": 150.0186887254902,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.83577486507325,
+        "leaf": 6,
+        "leaf_training_mean": 112.83577486507325,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 125.44303011487116,
+        "leaf": 6,
+        "leaf_training_mean": 125.44303011487116,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 137.17709923664123,
+        "leaf": 6,
+        "leaf_training_mean": 137.17709923664123,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 110.61728776867172,
+        "leaf": 6,
+        "leaf_training_mean": 110.61728776867172,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.10123647604328,
+        "leaf": 6,
+        "leaf_training_mean": 112.10123647604328,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 123.59067757369965,
+        "leaf": 6,
+        "leaf_training_mean": 123.59067757369965,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 112.49210770659239,
+        "leaf": 6,
+        "leaf_training_mean": 112.49210770659239,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_8",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_16",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_19",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "estimator_prediction": 149.85395002328107,
+        "leaf": 6,
+        "leaf_training_mean": 149.85395002328107,
+        "steps": [
+          {
+            "branch": "left",
+            "feature": "hr_4",
+            "next_node": 1,
+            "node": 0,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_17",
+            "next_node": 2,
+            "node": 1,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_18",
+            "next_node": 3,
+            "node": 2,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_2",
+            "next_node": 4,
+            "node": 3,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_3",
+            "next_node": 5,
+            "node": 4,
+            "threshold": 0.5,
+            "value": 0.0
+          },
+          {
+            "branch": "left",
+            "feature": "hr_5",
+            "next_node": 6,
+            "node": 5,
+            "threshold": 0.5,
+            "value": 0.0
+          }
+        ]
+      }
+    ],
+    "tree": {
+      "estimator_prediction": 112.47641800246609,
+      "leaf": 6,
+      "leaf_training_mean": 112.47641800246609,
+      "steps": [
+        {
+          "branch": "left",
+          "feature": "hr_17",
+          "next_node": 1,
+          "node": 0,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_18",
+          "next_node": 2,
+          "node": 1,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_8",
+          "next_node": 3,
+          "node": 2,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_19",
+          "next_node": 4,
+          "node": 3,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_16",
+          "next_node": 5,
+          "node": 4,
+          "threshold": 0.5,
+          "value": 0.0
+        },
+        {
+          "branch": "left",
+          "feature": "hr_4",
+          "next_node": 6,
+          "node": 5,
+          "threshold": 0.5,
+          "value": 0.0
+        }
+      ]
+    }
+  },
+  "record_id": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f:8646",
+  "target_time": "2012-01-01 00:00:00"
+}

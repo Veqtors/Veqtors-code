@@ -1,0 +1,30 @@
+{
+  "source": "Issue 021 report.json, executed 2026-11-01; copied reference values before #024 fitting",
+  "dataset_helper_sha256": "beca12d7b9df34179a269fdc3fefa4d9fb9f5d40efd7bb9c9d7d0555abe758a7",
+  "full_source_mechanical_logical_sha256": "4305923354cf9d3398076c9fc5d29553bf00e95adb0213fcb0c978d1bc82998a",
+  "contract_sha256": "31a5009f7423323fd79907f1dbfb0ca31d57101f7ff423b088933e992333b334",
+  "train_input_sha256": "e06683b57142992357c774ccf531666d23f7abaae0fbe14dfb8f509dfc1e6a5a",
+  "validation_input_sha256": "f2b96492e433425f85cb8a8e2c6b358e259dbfbaddfdad5e51602e23e8435f54",
+  "partitions": {
+    "train": {"count": 8644, "ordered_ids_sha256": "3d4ee7e6bd7caf76c004213eefcf2d3ed7c3bb9dca03a800ae723f949b5e695e"},
+    "validation": {"count": 4358, "ordered_ids_sha256": "01acde00b1aed53f4f42e2ba3727ad6f9a021ed69a4db61f18ac2cb9730dad74"},
+    "reserved": {"count": 4376, "ordered_ids_sha256": "a7717b2b28a7398ad331b7cb3bc1fc7b0931e88cc2e446806fc405e45a03342e"},
+    "readiness_excluded": {"count": 1, "ordered_ids_sha256": "01bebfc6b17a14a55a7b2759c31e125fde800e5d70f9c4142f221dd6b1bfb580"}
+  },
+  "constants": {"median": 109.0, "mean": 143.80749652938454},
+  "first_validation_ols": -49.665532643377,
+  "scores": {
+    "median": {
+      "train": {"mae": 103.30402591392874, "mse": 19111.955576122167, "rmse": 138.2459966007051, "negative_count": 0},
+      "validation": {"mae": 159.94791188618632, "mse": 49504.90385497935, "rmse": 222.4969749344457, "negative_count": 0}
+    },
+    "mean": {
+      "train": {"mae": 106.59518330181602, "mse": 17900.393761479052, "rmse": 133.79235315024192, "negative_count": 0},
+      "validation": {"mae": 154.23052351343298, "mse": 43326.01468669023, "rmse": 208.14902038369104, "negative_count": 0}
+    },
+    "ols": {
+      "train": {"mae": 59.22772141710478, "mse": 6341.699355150133, "rmse": 79.6347873429077, "negative_count": 805},
+      "validation": {"mae": 116.68013721531672, "mse": 24944.075271898142, "rmse": 157.93693447670225, "negative_count": 733}
+    }
+  }
+}
