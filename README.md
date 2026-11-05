@@ -11,7 +11,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | #5 The model never saw your answer | [`005-rag-system`](005-rag-system) | A tiny BM25 RAG pipeline and chunk-boundary failures |
 | #6 Overlap made my RAG worse | [`006-rag-upgrades`](006-rag-upgrades) | A measured upgrade ladder across chunking and retrieval choices |
 | #7 Hybrid search lost the easy answer | [`007-hybrid-search`](007-hybrid-search) | BM25, dense retrieval, RRF, and the zero-score rank bug |
-| #8 My vector index made search slower | [`008-vector-index`](008-vector-index) | Exact, HNSW and IVF recall curves, the size crossover, and post-filter loss |
+| #8 What a vector index skips | [`008-vector-index`](008-vector-index) | Hand-traced HNSW search lab, neighbour recall, and exact vs HNSW recall/time measurements |
 | #9 Rewriting my queries made search worse | [`009-query-rewriting`](009-query-rewriting) | Query rewriting, HyDE and reranking on two public datasets, with bootstrap intervals |
 | #10 Five searches found less than one | [`010-multi-query`](010-multi-query) | RAG-Fusion, step-back and two-round retrieval on three public datasets, with merge checks |
 | #11 Long context or RAG? (in progress) | [`011-long-context`](011-long-context) | Experimental full-context versus top-5 retrieval, placement and prefix-cache scripts; results pending |
