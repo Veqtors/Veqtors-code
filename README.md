@@ -23,6 +23,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | #25 Many weak trees, one honest score | [`025-boosting-honest-tuning`](025-boosting-honest-tuning) | Gradient boosting by hand, grouped-by-recipe CV on UCI Concrete, Bayesian (GP) vs random search at equal budget, nested CV and a once-opened test set |
 | DE-01 Start data engineering with a pencil | [`data-engineering/de-001-ten-rows-are-easy`](data-engineering/de-001-ten-rows-are-easy) | Counts cancellations, missing customers, exact repeats, zero prices and bad dates in UCI Online Retail II; tested on the ten rows used in the issue |
 | DE-02 Python is installed. Your code still won't run. | [`data-engineering/de-002-python-installed-code-wont-run`](data-engineering/de-002-python-installed-code-wont-run) | Four-check lab script (Python version, virtual environment, packages, tests) with six tests; run on Windows |
+| DE-03 Your first Git repo | [`data-engineering/de-003-your-first-git-repo`](data-engineering/de-003-your-first-git-repo) | Break-it script that commits and deletes a fake password in a throwaway repo, a repo checker for secrets and ignored data, and a python-dotenv settings loader; four tests |
 
 Completed experiments contain their recorded output in `RESULTS.md`. Issue 011 is still in progress; see its README for setup and limits. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 

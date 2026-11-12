@@ -1,0 +1,13 @@
+[project]
+name = "de-003-first-git-repo"
+version = "0.1.0"
+description = "DE-03: put your lab under Git without committing secrets or data"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
