@@ -1,0 +1,11 @@
+[project]
+name = "de-002-lab-check"
+version = "0.1.0"
+description = "DE-02: check that your data-engineering lab works"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]

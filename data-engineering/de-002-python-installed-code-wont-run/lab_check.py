@@ -1,8 +1,8 @@
 """DE-02: check that your data-engineering lab works.
 
-Run it from the folder that holds the DE-01 files:
+Run it from the DE-01 project folder (the one with pyproject.toml):
 
-    python lab_check.py
+    uv run python lab_check.py
 
 Four checks, each printed as ok or FAIL with the reason. It uses only the
 Python standard library, so it runs even before you have installed anything.
@@ -27,7 +27,7 @@ def check_python(version_info) -> tuple[bool, str]:
 def check_virtual_environment(prefix: str, base_prefix: str) -> tuple[bool, str]:
     if prefix != base_prefix:
         return True, f"running inside a virtual environment: {prefix}"
-    return False, "not inside a virtual environment: sys.prefix is the system Python (activate .venv first)"
+    return False, "not inside a virtual environment: sys.prefix is the system Python (start it with: uv run python lab_check.py)"
 
 
 def check_packages(names, version_of) -> tuple[bool, str]:
@@ -38,7 +38,7 @@ def check_packages(names, version_of) -> tuple[bool, str]:
         except metadata.PackageNotFoundError:
             missing.append(name)
     if missing:
-        return False, "missing: " + ", ".join(missing) + " (run: python -m pip install -r requirements.txt)"
+        return False, "missing: " + ", ".join(missing) + " (run: uv sync)"
     return True, ", ".join(found)
 
 

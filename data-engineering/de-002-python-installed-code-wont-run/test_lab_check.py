@@ -23,7 +23,7 @@ def test_missing_package_is_named_with_the_fix():
 
     ok, detail = check_packages(["pandas", "pyarrow"], version_of)
     assert not ok
-    assert "pyarrow" in detail and "python -m pip install -r requirements.txt" in detail
+    assert "pyarrow" in detail and "uv sync" in detail
 
 
 def test_all_packages_present():

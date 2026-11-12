@@ -19,11 +19,19 @@ script on the ten rows used in the issue (plain total 173.45).
 
 ## Run it
 
+This folder is a [uv](https://docs.astral.sh/uv/) project. DE-02 shows how to
+install uv and why it is set up this way. From this folder:
+
 ```
-pip install -r requirements.txt
-python count_problems.py path/to/online_retail_II.xlsx
-python -m pytest
+uv sync
+uv run python count_problems.py path/to/online_retail_II.xlsx
+uv run pytest
 ```
+
+`uv sync` creates `.venv` and installs the exact versions in `uv.lock`
+(downloading Python 3.13 first if you do not have it). `uv run` keeps that
+environment up to date before each command, so there is nothing to activate.
+Never commit `.venv`; do commit `uv.lock`.
 
 It reads every sheet of an `.xlsx`, or a `.csv` or `.parquet` file.
 
