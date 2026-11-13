@@ -1,0 +1,14 @@
+[project]
+name = "de-005-read-the-data-first"
+version = "0.1.0"
+description = "DE-05: download the UCI Online Retail II file and take a first look"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
