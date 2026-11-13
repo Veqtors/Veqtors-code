@@ -24,6 +24,7 @@ Runnable code behind the [Veqtors](https://veqtors.substack.com) newsletter: pro
 | DE-01 Start data engineering with a pencil | [`data-engineering/de-001-ten-rows-are-easy`](data-engineering/de-001-ten-rows-are-easy) | Counts cancellations, missing customers, exact repeats, zero prices and bad dates in UCI Online Retail II; tested on the ten rows used in the issue |
 | DE-02 Python is installed. Your code still won't run. | [`data-engineering/de-002-python-installed-code-wont-run`](data-engineering/de-002-python-installed-code-wont-run) | Four-check lab script (Python version, virtual environment, packages, tests) with six tests; run on Windows |
 | DE-03 Your first Git repo | [`data-engineering/de-003-your-first-git-repo`](data-engineering/de-003-your-first-git-repo) | Break-it script that commits and deletes a fake password in a throwaway repo, a repo checker for secrets and ignored data, and a python-dotenv settings loader; four tests |
+| DE-04 Why Docker exists | [`data-engineering/de-004-why-docker-exists`](data-engineering/de-004-why-docker-exists) | Compose file that runs Postgres 18 on localhost with a named volume and a password from `.env`, plus a script that loads the ten rows and counts them; tests need no Docker |
 
 Completed experiments contain their recorded output in `RESULTS.md`. Issue 011 is still in progress; see its README for setup and limits. Install from its `requirements.txt` when present; issues 004–006 use only the Python standard library.
 

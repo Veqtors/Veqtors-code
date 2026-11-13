@@ -1,0 +1,14 @@
+[project]
+name = "de-004-why-docker-exists"
+version = "0.1.0"
+description = "DE-04: run Postgres in Docker once and keep its data"
+requires-python = ">=3.11"
+dependencies = [
+    "psycopg[binary]>=3.2",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
