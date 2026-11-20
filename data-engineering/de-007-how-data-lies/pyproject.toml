@@ -1,0 +1,15 @@
+[project]
+name = "de-007-how-data-lies"
+version = "0.1.0"
+description = "DE-07: follow one retail value from bytes to money"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    "tzdata",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]

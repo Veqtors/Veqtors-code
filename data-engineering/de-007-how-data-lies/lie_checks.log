@@ -1,0 +1,49 @@
+
+1 bytes -> characters
+  non_ascii_cells                                  {'Description': 79, 'Country': 0}
+  distinct_non_ascii_descriptions                  8
+  utf8_bytes_of_pound                              c2a3
+  those_bytes_read_as_latin1                       £
+  page_text_matches                                True
+
+2 characters -> type
+  dtype                                            float64
+  missing                                          243007
+  rows_with_customer                               824364
+  float_column_vs_text_lookup                      pandas refuses: You are trying to merge on float64 and str columns for key '...
+  float_as_text_vs_text_lookup_matched             0
+  int_as_text_vs_text_lookup_matched               824364
+  as_text_of_first_float                           13085.0
+  nullable_int_dtype_keeps_gaps                    Int64, 243007 <NA>
+
+3 absence
+  missing_customer                                 243007
+  missing_description                              4382
+  empty_description_strings                        0
+  zero_price                                       6202
+  missing_desc_and_zero_price                      4382
+  missing_desc_and_no_customer                     4382
+  mean_price_all_rows                              4.6494
+  mean_price_excluding_zero                        4.8261
+  rows_price_positive                              1061164
+
+4 date -> moment
+  tz                                               None
+  missing_invoice_dates                            0
+  min                                              2009-12-01 07:45:00
+  max                                              2011-12-09 12:50:00
+  stored_hours                                     6 to 21
+  spring_2010-03-28_rows_in_01:00-02:00            0
+  spring_2011-03-27_rows_in_01:00-02:00            0
+  autumn_2010-10-31_rows_in_01:00-02:00            0
+  autumn_2011-10-30_rows_in_01:00-02:00            0
+  rows_that_cannot_be_uk_local_time_nonexistent    0
+
+5 number -> money
+  float_sum_numpy                                  19287250.568
+  fsum_correctly_rounded                           19287250.568
+  exact_decimal_sum                                19287250.568
+  difference_float_minus_exact                     -2.980232238769531e-11
+  integer_pence_sum                                19287250.55
+  prices_with_more_than_2_decimals                 18
+  seconds_float_vs_decimal                         (0.003, 0.608)

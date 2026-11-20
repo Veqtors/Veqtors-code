@@ -1,0 +1,27 @@
+== xlsx is a zip archive; parts and compression type (8 = deflate) ==
+  [Content_Types].xml              compress_type=8
+  _rels/.rels                      compress_type=8
+  xl/workbook.xml                  compress_type=8
+  xl/_rels/workbook.xml.rels       compress_type=8
+  xl/worksheets/sheet1.xml         compress_type=8
+  xl/worksheets/sheet2.xml         compress_type=8
+  xl/theme/theme1.xml              compress_type=8
+  xl/styles.xml                    compress_type=8
+
+== Parquet footer ==
+  row groups: [1048576, 18795]
+  Invoice      SNAPPY  compressed   526,285 of   866,095 bytes
+  StockCode    SNAPPY  compressed 1,712,927 of 1,735,942 bytes
+  Description  SNAPPY  compressed 1,757,371 of 1,847,352 bytes
+  Quantity     SNAPPY  compressed   933,193 of 1,282,077 bytes
+  InvoiceDate  SNAPPY  compressed   546,112 of   668,210 bytes
+  Price        SNAPPY  compressed 1,299,125 of 1,467,904 bytes
+  Customer ID  SNAPPY  compressed   272,978 of   301,084 bytes
+  Country      SNAPPY  compressed    27,711 of    29,246 bytes
+  distinct Country: 43  distinct InvoiceDate: 47635
+
+== why the first Parquet write failed (xlsx read WITHOUT dtype=str) ==
+  Invoice cell types: {'int': 1047871, 'str': 19500}
+  Invoice: ArrowInvalid: ("Could not convert 'C489449' with type str: tried to convert to int64", 'Conversion faile
+  Description: ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Description with type
+  Description cell types: {'str': 1062985, 'float': 4382, 'int': 4}

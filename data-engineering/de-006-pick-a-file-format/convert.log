@@ -1,0 +1,4 @@
+xlsx       45.6 MB   read  40.3 s   1,067,371 rows
+csv        95.9 MB   write   2.8 s
+jsonl     212.2 MB   write   2.4 s
+parquet      7.2 MB   write   0.5 s

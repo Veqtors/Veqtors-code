@@ -1,0 +1,6 @@
+1 bytes -> characters : 31 34 30 36 32 -> '14062'
+2 characters -> type  : '14062' -> 14062.0 (the column holds a missing value, so it is float)
+3 absence             : 14062.0 next to nan (row 1 has no customer)
+4 date -> moment      : 2009-12-15 16:15:00 tz = None
+5 number -> money     : price 2.95 goes into a sum: 2.95 x -25 = -73.75
+  the draft's example : float 45.9  vs  exact 45.90  (2.55 x 18)

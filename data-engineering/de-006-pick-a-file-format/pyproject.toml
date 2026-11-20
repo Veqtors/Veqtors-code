@@ -1,0 +1,15 @@
+[project]
+name = "de-006-pick-a-file-format"
+version = "0.1.0"
+description = "DE-06: the same retail table in CSV, JSON lines and Parquet, measured"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    "pyarrow>=15",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
