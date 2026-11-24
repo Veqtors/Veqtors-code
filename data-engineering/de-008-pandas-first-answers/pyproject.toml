@@ -1,0 +1,15 @@
+[project]
+name = "de-008-pandas-first-answers"
+version = "0.1.0"
+description = "DE-08: four pandas moves on the retail table"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    "pyarrow>=15",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
