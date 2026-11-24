@@ -1,0 +1,15 @@
+[project]
+name = "de-009-pandas-silent-bugs"
+version = "0.1.0"
+description = "DE-09: three silent bugs in pandas and the checks that catch them"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    "pyarrow>=15",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
